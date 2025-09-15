@@ -46,17 +46,6 @@ public class Computador {
         return preco;
     }
 
-    public HardwareBasico[] getHardwareBasicos() {
-        return hardwareBasicos;
-    }
-
-    public SistemaOperacional getSistemaOperacional() {
-        return sistemaOperacional;
-    }
-
-    public MemoriaUSB getMemoriaUSB() {
-        return memoriaUSB;
-    }
 
     //metodo
 

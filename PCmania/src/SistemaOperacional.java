@@ -10,10 +10,6 @@ public class SistemaOperacional {
         return nome;
     }
 
-    public int getTipo() {
-        return tipo;
-    }
-
 
 //setters
 

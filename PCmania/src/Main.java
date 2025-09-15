@@ -28,13 +28,13 @@ public class Main {
 
         //promoção 2
         SistemaOperacional sistemaOperacional2 = new SistemaOperacional();
-        sistemaOperacional1.setNome("Windows 8");
-        sistemaOperacional1.setTipo(64);
+        sistemaOperacional2.setNome("Windows 8");
+        sistemaOperacional2.setTipo(64);
 
         //promoção 3
         SistemaOperacional sistemaOperacional3 = new SistemaOperacional();
-        sistemaOperacional1.setNome("Windows 10");
-        sistemaOperacional1.setTipo(64);
+        sistemaOperacional3.setNome("Windows 10");
+        sistemaOperacional3.setTipo(64);
 
         //criando memorial usb
         //promoção1
@@ -44,13 +44,13 @@ public class Main {
 
         //promoção2
         MemoriaUSB memoriaUSB2 = new MemoriaUSB();
-        memoriaUSB1.setNome("Pen-drive ");
-        memoriaUSB1.setCapacidade(32);
+        memoriaUSB2.setNome("Pen-drive ");
+        memoriaUSB2.setCapacidade(32);
 
         //promoção3
         MemoriaUSB memoriaUSB3 = new MemoriaUSB();
-        memoriaUSB1.setNome("HD Externo ");
-        memoriaUSB1.setCapacidade(1000);
+        memoriaUSB3.setNome("HD Externo ");
+        memoriaUSB3.setCapacidade(1000);
 
         //juntando todos os hardware nas arrays
         HardwareBasico[] hardwarepromo1 = new HardwareBasico[]{hardware1,hardware2, hardware3};
